@@ -1,11 +1,11 @@
 import '../styles/globals.css'
 import Link from 'next/link'
 
-function MyApp({ Component, pageProps }) {
+function Marketplace({ Component, pageProps }) {
   return (
     <div>
       <nav className="border-b p-6">
-        <p className="text-4xl font-bold">Artisy</p>
+        <p className="text-4xl font-bold">Artisy - Give your art life</p>
         <div className="flex mt-4">
           <Link href="/">
             <a className="mr-4 text-pink-500">
@@ -34,4 +34,4 @@ function MyApp({ Component, pageProps }) {
   )
 }
 
-export default MyApp
+export default Marketplace
